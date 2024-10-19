@@ -21,7 +21,7 @@ This project is a Python application that opens YouTube links in the Brave brows
 - `opencv-python`
 - `pytesseract`
 
-## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/V-Deepak-akash/YoutubeFakeViews.git
