@@ -19,29 +19,29 @@ This Python application allows you to open YouTube links in the Brave browser wi
 
 ## Installation
 1. Clone the Repository
-```
-git clone https://github.com/V-Deepak-akash/YoutubeFakeViews.git
-```
+  ```
+  git clone https://github.com/V-Deepak-akash/YoutubeFakeViews.git
+  ```
 2. Navigate to the project directory:
-```
-cd YoutubeFakeViews
-```
+  ```
+  cd YoutubeFakeViews
+  ```
 3. Install the Required Python Packages
-```
-pip install -r requirements.txt
-```
+  ```
+  pip install -r requirements.txt
+  ```
 4. Install Tesseract-OCR
-Tesseract-OCR is used for text recognition. You need to install it:
+- Tesseract-OCR is used for text recognition. You need to install it:
 
-Download the installer from the [Tesseract-OCR GitHub page](https://github.com/tesseract-ocr/tesseract).
-Run the installer and follow the on-screen instructions.
-Note the installation path (e.g., C:\Program Files\Tesseract-OCR\tesseract.exe on Windows).
-Update the Tesseract path in the script:
+    Download the installer from the [Tesseract-OCR GitHub page](https://github.com/tesseract-ocr/tesseract).
+    Run the installer and follow the on-screen instructions.
+    Note the installation path (e.g., C:\Program Files\Tesseract-OCR\tesseract.exe on Windows).
+- Update the Tesseract path in the script:
 
-```
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-```
-Make sure the path matches where you installed Tesseract. If it’s different, update the path accordingly.
+  ```
+  pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+  ```
+    Make sure the path matches where you installed Tesseract. If it’s different, update the path accordingly.
 
 5. Install Brave Browser
 The application will check if Brave is installed. If not, it can download and install Brave automatically.
