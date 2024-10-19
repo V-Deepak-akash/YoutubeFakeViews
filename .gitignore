@@ -1,0 +1,26 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+
+# Tesseract OCR
+tessdata/
+
+# Environment files
+.env
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
