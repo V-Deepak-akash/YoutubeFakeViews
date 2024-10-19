@@ -24,7 +24,6 @@ This project is a Python application that opens YouTube links in the Brave brows
 ## Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/V-Deepak-akash/YoutubeFakeViews.git
    cd youtube-link-opener
@@ -46,3 +45,30 @@ Update the Tesseract path in the script: Open the script youtube_link_opener.py 
    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
    ```
 Ensure that the path matches the location where Tesseract was installed. If you installed it in a different directory, update the path accordingly.
+
+4.Install Brave Browser: If you don’t have the Brave browser installed, the application can automatically install it for you. If you already have it installed, the application will use the existing installation
+
+## Usage
+Run the application: In your terminal or command prompt, navigate to the project directory and run:
+   ```bash
+   python youtube_link_opener.py
+   ```
+Enter the YouTube link: In the application window, type or paste the YouTube link you want to open.
+
+Specify the number of tabs: Enter the desired number of tabs you want to open.
+
+Open the link: Click the "Open in Brave" button to launch the links in the Brave browser.
+
+Record Mouse Position :
+This feature allows you to automate mouse clicks for opening a new private window and resetting the Tor connection in Brave. Here's how it works:
+
+Click the "Record Mouse Position" button.
+You'll receive a notification asking you to position your mouse over the "Customize and Control Brave" which looks like this ![image](https://github.com/user-attachments/assets/9aac0fa4-750c-4b8d-88c6-41c94fc50f2f)
+ button in Brave.
+Move your mouse to the button and wait for 5 seconds while the program records the coordinates.
+After that, you'll get another notification to position your mouse over the "New Private Window with Tor" option in Brave's menu.
+Again, move your mouse to this option and wait for 5 seconds.
+Once both positions are recorded, the program will save the coordinates and use them to automate clicking these buttons when needed.
+
+## Contributing
+Contributions are welcome! If you would like to contribute, please feel free to submit a pull request or open an issue to discuss changes.
