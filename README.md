@@ -9,7 +9,7 @@ This Python application allows you to open YouTube links in the Brave browser wi
 - Saves your last used YouTube link and mouse coordinates for future use.
 - Simple and user-friendly graphical interface (GUI) built with Tkinter.
 
-##Requirements
+## Requirements
 - Python 3.x
 - tkinter
 - pyautogui
@@ -17,7 +17,7 @@ This Python application allows you to open YouTube links in the Brave browser wi
 - opencv-python
 - pytesseract
 
-##Installation
+## Installation
 1. Clone the Repository
 ```
 git clone https://github.com/V-Deepak-akash/YoutubeFakeViews.git
