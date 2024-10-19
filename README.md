@@ -1,4 +1,4 @@
-# YouTube Link Opener in Brave with Tor
+# YouTube Fake views bot in Brave with Tor
 
 ## Description
 
