@@ -24,7 +24,7 @@ git clone https://github.com/V-Deepak-akash/YoutubeFakeViews.git
 ```
 2. Navigate to the project directory:
 ```
-cd youtube-link-opener
+cd YoutubeFakeViews
 ```
 3. Install the Required Python Packages
 ```
