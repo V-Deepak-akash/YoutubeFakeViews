@@ -77,5 +77,21 @@ The application will check if Brave is installed. If not, it can download and in
     - Then, you’ll be prompted to move your mouse over the New Private Window with Tor option from the menu.
     - Again, wait 5 seconds to record this position.
     - The program saves these coordinates and uses them to automate mouse clicks in Brave.
+
+
+## Creating an Executable (.exe) with PyInstaller (optional)
+To create an executable version of this program using PyInstaller, follow these steps:
+
+Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+Run the following command to create an executable file:
+```bash
+pyinstaller --onefile --windowed main.py
+```
+This will generate an executable file in the dist folder, which can be shared and run without needing Python installed.
+Requirements
+
 ## Contributing
 Contributions are welcome! If you have ideas or improvements, feel free to submit a pull request or open an issue to discuss changes
